@@ -1,0 +1,20 @@
+{
+  "name": "technova-shop",
+  "version": "1.0.0",
+  "description": "TechNova - website bán sản phẩm công nghệ (Node.js + Express + SQLite)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "test": "node test/api.test.js && node test/scenarios.test.js && node test/payment.test.js"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "better-sqlite3": "^13.2.0",
+    "express": "^4.22.3",
+    "qrcode": "^1.5.4"
+  }
+}
